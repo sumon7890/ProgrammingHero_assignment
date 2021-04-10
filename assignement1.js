@@ -38,10 +38,13 @@ console.log(total)
 
 
 //hotelCost
+// day 1 to 10 = 100 tk
+// day 10 to 17 = 80 tk
+//day 17 abrove = 50 tk
 function hotelCost(n){
     var sum = 0;
     if(n<=10){
-        sum = n*10;
+        sum = n*100;
     }
     else if(n>=10 & n<=17){
         sum = n*80;
